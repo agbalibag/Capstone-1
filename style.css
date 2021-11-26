@@ -4,8 +4,20 @@
 }
 
 /* Navbar */
-.navbar=nav{
+.navbar-nav{
 	font-size: 18px;
+}
+.navbar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+
+/* Button */
+.btn:hover{
+	color: white;
+
 }
 
 /* Card */
@@ -25,3 +37,92 @@
 	box-shadow: 1px 2px 10px;
 
 }
+
+/* Projects*/
+
+#projects{
+	flex-wrap: wrap;
+}
+
+
+/*Contact*/
+#contact{
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	flex-wrap: wrap;
+}
+
+form{
+	padding-bottom: 10px;
+	margin-bottom: ;
+}
+
+iframe{ 
+	border: 0;
+	width: 100%;
+	height: 235px;
+}
+
+/* Map */
+
+.iframe{
+	 
+	border: 0;
+}
+
+
+/* Footer */
+footer{
+	color: #fff;
+	background-color: #2f4f4f;
+}
+
+
+footer .container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer > ul{
+	margin-bottom: 32px;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+footer > ul > li{
+	padding: 0 15px;
+	margin-bottom: 16px;
+}
+
+.footerlink{
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+
+}
+
+.flex-wrapper{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.flex-wrapper > li > i{
+	cursor: pointer;
+	font-size: 30px;
+
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+
+
+
+
