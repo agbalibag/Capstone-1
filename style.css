@@ -14,12 +14,11 @@ h1, h3{
 h3 {
   color: #8A2AA6;
 }
-/* No Horizontal Scroll*/
+
+/* Avoid horizontal scroll*/
 html, body {
-  overflow-x: hidden;
-}
-body {
-  position: relative
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* Navbar */
@@ -30,9 +29,12 @@ body {
 
 }
 .navbar{
-  position: sticky;
+  /* This fixed my sticky navbar1*/
+  position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 100;
+  /* This fixed my sticky naavbar2*/
+  width: 100%
 
 }
 
@@ -271,7 +273,7 @@ footer{
 
 }
 
-/* Additional Hover Effects*/
+
 /* Hover-Rotate */
 .hover01 figure img {
   -webkit-transform: rotate(15deg) scale(1.4);
