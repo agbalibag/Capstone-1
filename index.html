@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
+<!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,6 +14,7 @@
 
 <!-- Icons from Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
 <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>My Portfolio</title>
@@ -39,7 +40,8 @@
        </li> 
          <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
-       </li>      
+       </li>
+      </ul>      
      </div>
   </div>
 </nav>
@@ -50,30 +52,21 @@
   <div class="container mb-5">
     <div class="row">
       <div class="col-md-6 d-flex flex-column justify-content-center">
-        <h1 class="display-5 fw-bold">Hi! I'm Abegail Balibag</h1>
-        <h3 class="text-secondary">WEB DEVELOPER</h3>
-        <div class="buttons mt-4">
-          <button class="btn btn-outline-secondary px-4 py-2">Hire Me</button>
-          <button class="btn btn-secondary text-white px-4 py-2">About</button>
+        <h1 class="display-5 fw-bold" align="center">Hi! I'm Abegail Balibag</h1>
+        <h3 class="text" align="center">WEB DEVELOPER</h3>
+          <p  align="center"><strong>Let's make your domain dominate!</strong></p>
+        <div class="buttons mt-4"  align="center">
+          <a href="./links/hireme.html"><button class="btn btn-outline-secondary px-4 py-2">Hire Me</button></a>
+          <a href="#about"><button class="btn btn-secondary text-white px-4 py-2">About</button></a>
           
         </div>
       </div>
       <div class="col-md-6">
-        <!-- Carousel -->
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-           <div class="carousel-item active">
-             <img src="./images/home1.jfif" class="d-block w-100" alt="..." height="600px">
-           </div>
-            <div class="carousel-item">
-              <img src="./images/home2.jpg" class="d-block w-100" alt="..." height="600px">
-            </div>
-            <div class="carousel-item">
-              <img src="./images/home3.jpg" class="d-block w-100" alt="..." height="600px">
-            </div>
+        <div class="hover01">
+          <figure>
+            <img src="images/landing2.png" class="img-fluid">
+          </figure>
         </div>
-        </div>
-        <!-- End of Carousel -->
       </div>  
     </div>
   </div> 
@@ -89,19 +82,31 @@
         <hr>
       </div>
     </div>
-     <div class="row">
+     <div class="row" class="d-flex justify-content-around">
       <div class="col-md-6">
-        <img src="./images/home2.jpg" class="d-block w-100" alt="..." height="500px width=400px">
+        <div class="hover02">
+          <figure>
+            <img src="./images/about.png" class="image-fluid">
+          </figure>
+        </div>
       </div>
-      <div class="col-md-6"></div>
+
+      <div class="col-md-6">
         <h1 class="fw-bold">ABEGAIL BALIBAG</h1>
         <h3 class="text-secondary mb-4">WEB DEVELOPER</h3>
-        <p class="lead mb-4">Experienced coding bootcamp graduate with extensive background in various coding languages, developing mobile applications, and building websites from the ground up. Specializes in HTML and CSS. Professional strengths include creative problem-solving, written and verbal communication, and time management. Detail-oriented mindset from 8+ years of experience in the banking industry.</p>
-        <div class="buttons">
-          <button class="btn btn-outline-secondary px-5 py-2">Download CV</button>
-          <button class="btn btn-secondary text-white px-5 py-2">Contact</button>
+        <p class="lead mb-4" align="justify">Experienced coding bootcamp graduate with extensive background in various coding languages and building websites from the ground up. Specializes in HTML and CSS. Professional strengths include creative problem-solving, written and verbal communication, and time management. Detail-oriented mindset from 8+ years of experience in the banking industry.</p>
+        <h3 align="center"><strong>Languages I Speak</strong></h3>
+        <p align="center"><img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/> HTML     <img src="https://img.icons8.com/color/48/000000/css3.png"/>  CSS</p>
+        <h3 align="center"><strong>Tools I Use</strong></h3>
+        <p align="center"><img src="https://img.icons8.com/color/48/000000/git.png"/>  Git Bash/Terminal    <img src="https://img.icons8.com/color/48/000000/sublime-text.png"/>  Sublime Text    <img src="https://img.icons8.com/color/48/000000/github--v1.png"/>  Github    <img src="https://img.icons8.com/color/48/000000/gitlab.png"/>  Gitlab   <img src="https://img.icons8.com/color/48/000000/chrome--v1.png"/>  Google Chrome</p>
+     
+        <div class="buttons" align="center">
+          <a href="./links/samplecv.pdf" download><button class="btn btn-outline-secondary px-4 py-2">Download CV</button></a>
+          <a href="#contact"><button class="btn btn-secondary text-white px-4 py-2">Contact</button></a>
         </div>
-     </div>
+    </div> 
+  </div>
+     
   </div>  
 </section>
 <!-- End of Second Part -->
@@ -120,11 +125,11 @@
       <div class="col-md-4">
         <!-- Start of Card 1-->
         <div class="card p-4 h-100">
-          <img src="./images/html.png" class="card-img-top" alt="...">
+          <img src="./images/cards1.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h3>Capstone Project 1:</h3>
               <h2>Portfolio</h2>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text"></p>
             </div>
         </div>
         <!-- End of Card 1 -->
@@ -132,11 +137,11 @@
       <div class="col-md-4">
         <!-- Start of Card 2-->
         <div class="card p-4 h-100">
-          <img src="./images/html.png" class="card-img-top" alt="...">
+          <img src="./images/cards2.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h3>Capstone Project 2:</h3>
               <h2>Booking System API</h2>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text"></p>
             </div>
         </div>
         <!-- End of Card 2 -->
@@ -144,11 +149,11 @@
       <div class="col-md-4">
         <!-- Start of Card 3-->
         <div class="card p-4 h-100 ">
-          <img src="./images/html.png" class="card-img-top" alt="...">
+          <img src="./images/cards3.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h3>Capstone Project 3:</h3>
               <h2>Full Stack Application</h2>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text"></p>
             </div>
         </div>
         <!-- End of Card 3 -->
@@ -161,6 +166,8 @@
 
 <!-- Fourth Part - Contact Section -->
 <section id="contact">
+  <div class="hover03">
+    <figure>
   <div class="container my-5 py-5 bg-secondary">
     <div class="row mb-5">
       <div class="col-12">
@@ -192,17 +199,19 @@
         </form>
       </div>
       <div class="col-md-6">
-        <p><strong><i class="far fa-envelope"></i> Email:</strong> abalibag@gmail.com</p>
+        <p><strong><i class="far fa-envelope"></i> Email:</strong><span><a href="mailto: abalibag@gmail.com">   abalibag@gmail.com</a></span></p>
          
-        <p><strong><i class="fas fa-mobile-alt"></i> Call:</strong> +63 939 2098577</p>
+        <p><strong><i class="fas fa-mobile-alt"></i> Call:</strong><span> +63 939 2098577</span></p>
             
-         <p><strong><i class="fas fa-map-marker-alt"></i> Location:</strong>3523 V. Mapa Ext., Sta. Mesa, Manila, 1016</p>
+         <p><strong><i class="fas fa-map-marker-alt"></i> Location:</strong><span> 3523 V. Mapa Ext., Sta. Mesa, Manila, 1016</span></p>
         
 
       <!-- Google Map -->
       <p id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7722.039025113485!2d121.02231816931153!3d14.597963999999985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc69101497cc38d56!2sHampstead%20Garden%20Condominiums!5e0!3m2!1sen!2sph!4v1637886803883!5m2!1sen!2sph" allowfullscreen="" loading="lazy"></iframe></p>
     </div>
     </div>
+  </div>
+  </figure>
   </div>
 </section>
 <!-- End of Fourth Part -->
@@ -211,7 +220,7 @@
 <footer class="footer-distributed">
 
       <div class="footer-left">
-        <h3>Navigate</span></h3>
+        <h3>Navigate</h3>
 
         <p class="footer-links">
          <a href="#home"><i class="fas fa-home"></i> Home</a>
@@ -227,7 +236,7 @@
 
       <div class="footer-center">
         <div>
-          <i class="fa fa-map-marker"></i>
+          <i class="fa fa-map-marker"></i>\
             <p><span>3523 V. Mapa Ext.</span>
            Sta. Mesa, Manila, 1016</p>
         </div>
@@ -238,7 +247,7 @@
         </div>
         <div>
           <i class="fa fa-envelope"></i>
-          <p><a href="https://mail.google.com/mail"></a>abalibag@gmail.com</p>
+          <p><a href="mailto: abalibag@gmail.com">abalibag@gmail.com</a></p>
         </div>
       </div>
       <div class="footer-right">
@@ -247,10 +256,10 @@
           </p>
         <div class="footer-icons">
           <a href="https://www.facebook.com/abegail.balibag"><span class="fab fa-facebook-f"></span></a>
-        <a href="#"><span class="fab fa-linkedin-in"></span></a>
+        <a href="https://www.linkedin.com/in/abegail-balibag-365b6797/"><span class="fab fa-linkedin-in"></span></a>
         </div>
       </div>
-    </footer>
+</footer>
 
 <!-- End of Footer -->
 
